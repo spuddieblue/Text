@@ -22,13 +22,12 @@ The selection of primary vendors (Kaspersky, Microsoft, Symantec, BitDefender, E
 1. Detection Coverage
 ```mermaid
 %%{init: {'themeVariables': {'axisX': {'title': 'Detection Rate (%)'}}}}%%
-bar
+pie
     title Average Detection Coverage by Vendor Group
-    axis-x "Vendor Groups"
-    axis-y "Detection Rate (%)"
-    Primary-Vendors  92.5
-    Secondary-Vendors  85.3
-    Other-Vendors  67.8
+    "Primary-Vendors" : 92.5
+    "Secondary-Vendors" : 85.3
+    "Other-Vendors" : 67.8
+
 
 ```
 
