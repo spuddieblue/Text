@@ -1,4 +1,3 @@
-```markdown
 # Comprehensive Malware Analysis Leveraging Malware Bazaar and VirusTotal APIs
 
 ## Abstract
