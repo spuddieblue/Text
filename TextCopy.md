@@ -239,11 +239,16 @@ Pattern Analysis:
 #### 3.4.1 Detection Metrics by Family
 
 ```mermaid
-xychart-beta
-    title "Vendor Agreement Distribution"
-    x-axis ["GandCrab", "WannaCry", "REvil", "LockBit", "CryptoLocker"]
-    y-axis "Average Vendor Agreement" 0 --> 15
-    bar ["11.5", "6.0", "7.5", "8.9", "7.7"]
+bar
+    title Vendor Agreement Distribution
+    axis-x "Ransomware Types"
+    axis-y "Average Vendor Agreement"
+    "GandCrab" 11.5
+    "WannaCry" 6.0
+    "REvil" 7.5
+    "LockBit" 8.9
+    "CryptoLocker" 7.7
+
 ```
 
 #### 3.4.2 Temporal Distribution of Detections
